@@ -14,7 +14,6 @@ import {
   Link,
   UploadCloud,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 export default function Skills() {
   return (
@@ -53,7 +52,7 @@ export default function Skills() {
                 Data Analysis & Visualization
               </h2>
               <p className="">
-                Transforming raw data into actionable insights using Python's
+                Transforming raw data into actionable insights using Python
                 Pandas and Seaborn libraries.
               </p>
             </div>
@@ -114,7 +113,7 @@ export default function Skills() {
               <h2 className="text-xl font-bold ">Blockhain</h2>
               <p>
                 Developing secure blockchain solutions for various use-cases,
-                employing Ethereum's ERC-20 standard.
+                employing Ethereum ERC-20 standard.
               </p>
             </div>
             <div className="flex flex-col items-center space-y-2  p-4">
