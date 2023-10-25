@@ -13,13 +13,12 @@ export default function Navbar() {
     <header className="fixed z-50 mx-auto w-full max-w-6xl bg-background px-4 py-2">
       <div className="flex items-center justify-between">
         {/* Left */}
-        <div className="flex">
-          <Link href="#">
-            <h1 className="text-2xl font-semibold tracking-tight">
-              Philip Wallis
-            </h1>
-          </Link>
-        </div>
+
+        <Link href="#">
+          <h1 className="text-2xl font-semibold tracking-tight">
+            Philip Wallis
+          </h1>
+        </Link>
 
         {/* Right */}
         {/* Web */}

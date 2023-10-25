@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`font-sans ${inter.variable} mx-auto flex max-w-6xl flex-col scroll-smooth`}
+        className={`font-sans ${inter.variable} mx-auto flex max-w-6xl flex-col`}
       >
         <ThemeProvider
           attribute="class"
