@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
-import projectData from "@/components/projects.json"; // Import JSON data
+import projectData from "@/components/home/projects.json"; // Import JSON data
 
 import Link from "next/link";
 import Image from "next/image";

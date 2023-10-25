@@ -24,12 +24,7 @@ export default function RootLayout({
       <body
         className={`font-sans ${inter.variable} mx-auto flex max-w-6xl flex-col`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
         </ThemeProvider>
       </body>

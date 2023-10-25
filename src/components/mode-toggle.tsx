@@ -18,6 +18,7 @@ export function ModeToggle() {
   };
   return (
     <Button
+      aria-label="toggle-theme"
       variant="link"
       className="flex w-full justify-center"
       onClick={() => ToggleTheme()}

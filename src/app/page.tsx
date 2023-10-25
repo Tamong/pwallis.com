@@ -1,7 +1,8 @@
 import NavBar from "@/components/nav-bar";
-import About from "@/components/about";
-import Projects from "@/components/projects";
-import Contact from "@/components/contact";
+import About from "@/components/home/about";
+import Skills from "@/components/home/skills";
+import Projects from "@/components/home/projects";
+import Contact from "@/components/home/contact";
 
 export default function HomePage() {
   return (
@@ -9,6 +10,7 @@ export default function HomePage() {
       <NavBar />
       <main className="flex flex-col">
         <About />
+        <Skills />
         <Projects />
         <Contact />
       </main>

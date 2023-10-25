@@ -29,6 +29,11 @@ export default function Navbar() {
             </a>
           </Button>
           <Button variant="link" asChild>
+            <a href="#skills">
+              <h2 className="text-lg font-medium">Skills</h2>
+            </a>
+          </Button>
+          <Button variant="link" asChild>
             <a href="#projects">
               <h2 className="text-lg font-medium">Projects</h2>
             </a>
@@ -64,6 +69,16 @@ export default function Navbar() {
                 </a>
               </Button>
 
+              <Button
+                variant="link"
+                size={"sm"}
+                className="flex w-full justify-center"
+                asChild
+              >
+                <a href="#skills">
+                  <h2 className=" text-lg font-medium">Skills</h2>
+                </a>
+              </Button>
               <Button
                 variant="link"
                 className="flex w-full justify-center"
