@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <>
       <NavBar />
-      <main className="flex h-[100dvh] flex-col">
+      <main className="flex flex-col">
         <About />
         <Projects />
         <Contact />
