@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ModeToggle } from "@/components/mode-toggle";
 import { Menu } from "lucide-react";
 import {
@@ -10,37 +9,45 @@ import { Button } from "@/components/ui/button";
 
 export default function Navbar() {
   return (
-    <header className="fixed z-50 mx-auto w-full max-w-6xl bg-background px-4 py-2">
+    <header className="fixed z-50 mx-auto w-full max-w-6xl bg-background px-4 py-2 ">
       <div className="flex items-center justify-between">
         {/* Left */}
 
-        <Link href="#">
-          <h1 className="text-2xl font-semibold tracking-tight">
+        <a href="#">
+          <h1 className="text-2xl font-semibold tracking-tight transition-all duration-100 hover:text-accent">
             Philip Wallis
           </h1>
-        </Link>
+        </a>
 
         {/* Right */}
         {/* Web */}
         <div className="hidden items-center md:flex">
           <Button variant="link" asChild>
             <a href="#about">
-              <h2 className="text-lg font-medium">About</h2>
+              <h2 className="text-lg font-medium transition-all duration-100 hover:text-accent">
+                About
+              </h2>
             </a>
           </Button>
           <Button variant="link" asChild>
             <a href="#skills">
-              <h2 className="text-lg font-medium">Skills</h2>
+              <h2 className="text-lg font-medium transition-all duration-100 hover:text-accent">
+                Skills
+              </h2>
             </a>
           </Button>
           <Button variant="link" asChild>
             <a href="#projects">
-              <h2 className="text-lg font-medium">Projects</h2>
+              <h2 className="text-lg font-medium transition-all duration-100 hover:text-accent">
+                Projects
+              </h2>
             </a>
           </Button>
           <Button variant="link" asChild>
             <a href="#contact">
-              <h2 className="text-lg font-medium">Contact</h2>
+              <h2 className="text-lg font-medium transition-all duration-100 hover:text-accent">
+                Contact
+              </h2>
             </a>
           </Button>
           <ModeToggle />

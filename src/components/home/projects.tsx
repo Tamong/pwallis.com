@@ -20,12 +20,14 @@ export default function Projects() {
       id="projects"
       className="flex min-h-[100dvh] flex-col items-center justify-center"
     >
-      <h2 className="p-8 text-center text-4xl font-semibold">Projects</h2>
+      <h2 className="p-8 text-3xl font-bold tracking-tighter sm:text-5xl/none">
+        Projects
+      </h2>
       <div className="flex flex-col gap-4 md:flex-row">
         {projectData.map((project, index) => (
           <Card key={index} className="relative h-96 w-80 border">
             <CardHeader>
-              <CardTitle className="flex flex-col">
+              <CardTitle className="flex flex-col text-accent">
                 {project.title}
                 <div className="flex gap-2 pt-2">
                   <Badge>{project.badge.type}</Badge>

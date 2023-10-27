@@ -15,7 +15,7 @@ export default function Contact() {
         <a
           aria-label="Contact email: contact@pwallis.com"
           href="mailto:contact@pwallis.com"
-          className="flex items-center text-center text-xl font-semibold"
+          className="flex items-center text-center text-xl font-semibold text-accent"
         >
           contact@pwallis.com
         </a>

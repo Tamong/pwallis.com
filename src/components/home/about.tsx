@@ -4,7 +4,7 @@ export default function About() {
       id="about"
       className="flex min-h-[100dvh] flex-col items-center justify-center text-center"
     >
-      <h1 className="text-2xl font-semibold">Site Under Construction.</h1>
+      <h1 className="text-2xl font-semibold">Section Under Construction.</h1>
     </section>
   );
 }
