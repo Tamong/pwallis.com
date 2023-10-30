@@ -2,6 +2,10 @@ import { MoveLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Page Not Found",
+};
+
 export default function NotFoundPage() {
   return (
     <>
