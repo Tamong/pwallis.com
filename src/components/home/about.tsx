@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 
 export default function About() {
@@ -8,7 +9,7 @@ export default function About() {
     >
       <div className="h-16"></div>
       <div className="flex flex-col items-center">
-        <img className="w-64 rounded-lg" src="/benji.png" alt="Benji" />
+        <Image className="w-64 rounded-lg" src="/benji.png" alt="Benji" />
         <p className="text-xs">Benji, my dog.</p>
       </div>
       <div className="space-y-4 p-4">
@@ -19,11 +20,11 @@ export default function About() {
           Hello! <span className="text-accent">My name is Philip</span>, and I
           enjoy creating things that live on the internet! My interest in
           software engineering started back in high school when I first learned
-          to code. Since then, I've been constantly learning new things,
+          to code. Since then, I have been constantly learning new things,
           building projects, and working on a variety of projects.
         </p>
         <p className="max-w-lg">
-          Here are a few technologies I've been working with recently:
+          Here are a few technologies I have been working with recently:
           <ul className="grid grid-cols-2 gap-2 md:grid-cols-3">
             <li>
               <Badge>C, C++</Badge>
