@@ -7,6 +7,12 @@ import Contact from "@/components/home/contact";
 import Footer from "@/components/footer";
 
 export default function HomePage() {
+  /*
+  TODO: 
+  - Add a button to scroll one section down
+  - Add a button to scroll to the top
+  - Update projects section
+  */
   return (
     <>
       <main className="mx-auto flex max-w-6xl flex-col">
