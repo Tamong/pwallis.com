@@ -9,8 +9,12 @@ export const metadata = {
     title: "Philip Wallis",
     description:
       "A student at UTD, graduating Winter of 2023. Currently exploring job opportunities.",
+    url: "https://pwallis.com",
+    site_name: "Philip Wallis",
     icons: [{ rel: "icon", url: "/leaf.svg" }],
     images: [{ url: "/thumbnail.png", alt: "Philip Wallis" }],
+    locale: "en_US",
+    type: "website",
   },
 };
 
