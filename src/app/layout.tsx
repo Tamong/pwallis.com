@@ -6,8 +6,10 @@ import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Philip Wallis",
-  description: "Personal Website of Philip Wallis",
+  description:
+    "A student at UTD, graduating Winter of 2023. Currently exploring job opportunities.",
   icons: [{ rel: "icon", url: "/leaf.svg" }],
+  image: "/thumbnail.png",
 };
 
 export default function RootLayout({
