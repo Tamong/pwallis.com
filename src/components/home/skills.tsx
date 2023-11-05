@@ -40,7 +40,7 @@ export default function Skills() {
       name: "Database Management",
       icon: <Database />,
       description:
-        "Designing and managing robust databases with SQL and NoSQL technologies",
+        "Designing and managing robust databases with SQL and NoSQL technologies.",
     },
     {
       name: "Version Control",

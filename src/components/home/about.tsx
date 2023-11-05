@@ -25,12 +25,12 @@ export default function About() {
         </h1>
         <p>
           Hello! <span className="text-accent">My name is Philip</span>, and I
-          enjoy creating things that live on the internet! My interest in
+          am a software engineer based in the Texas, USA. My interest in
           software engineering started back in high school when I first learned
           to code. Since then, I have been constantly learning new things,
           building projects, and working on a variety of projects.
         </p>
-        <p>Here are a few technologies I have been working with recently:</p>
+        <p>Here are a few technologies that I know:</p>
         <ul className="grid grid-cols-2 gap-2 md:grid-cols-3">
           <li>
             <Badge>C, C++</Badge>
