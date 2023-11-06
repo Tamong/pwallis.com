@@ -13,9 +13,8 @@ export default function About() {
           className="w-64 rounded-lg"
           src={profilePic}
           alt="Benji"
-          width={512}
-          height={512}
-          priority
+          width={256}
+          height={256}
         />
         <p className="text-xs">Benji, my dog.</p>
       </div>
