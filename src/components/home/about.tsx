@@ -1,7 +1,26 @@
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import profilePic from "../../../public/benji.png";
+
 export default function About() {
+  const techs = [
+    "C, C++",
+    "Java",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "MySQL",
+    "React.JS",
+    "Node.JS",
+    "Next.JS",
+    "Express.JS",
+    "Auth.JS",
+    "HTML, CSS",
+    "Tailwind CSS",
+    "Git, Vercel",
+    "OSX, Unix",
+  ];
+
   return (
     <section
       id="about"
@@ -31,51 +50,11 @@ export default function About() {
         </p>
         <p>Here are a few technologies that I know:</p>
         <ul className="grid grid-cols-2 gap-2 md:grid-cols-3">
-          <li>
-            <Badge>C, C++</Badge>
-          </li>
-          <li>
-            <Badge>Java</Badge>
-          </li>
-          <li>
-            <Badge>Python</Badge>
-          </li>
-          <li>
-            <Badge>JavaScript</Badge>
-          </li>
-          <li>
-            <Badge>TypeScript</Badge>
-          </li>
-          <li>
-            <Badge>MySQL</Badge>
-          </li>
-          <li>
-            <Badge>React.JS</Badge>
-          </li>
-          <li>
-            <Badge>Node.JS</Badge>
-          </li>
-          <li>
-            <Badge>Next.JS</Badge>
-          </li>
-          <li>
-            <Badge>Express.JS</Badge>
-          </li>
-          <li>
-            <Badge>Auth.JS</Badge>
-          </li>
-          <li>
-            <Badge>HTML, CSS</Badge>
-          </li>
-          <li>
-            <Badge>Tailwind CSS</Badge>
-          </li>
-          <li>
-            <Badge>Git, Vercel</Badge>
-          </li>
-          <li>
-            <Badge>OSX, Unix</Badge>
-          </li>
+          {techs.map((tech) => (
+            <li key={tech}>
+              <Badge>{tech}</Badge>
+            </li>
+          ))}
         </ul>
       </div>
     </section>

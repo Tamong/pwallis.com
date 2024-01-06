@@ -16,20 +16,37 @@ export default function Hero() {
         Software Engineer
       </h2>
       <p className="text-md max-w-lg">
-        A student at UTD, graduating Winter of 2023. <br />
+        Graduated December 2023 from UTD. <br />
         Currently exploring job opportunities.
       </p>
-      <Button
-        disabled={true}
-        variant="outline"
-        className="flex w-28 gap-2"
-        asChild
-      >
-        <Link target="_blank" href="/Resume.pdf" prefetch={false}>
-          <p>Resume</p>
-          <MoveUpRight className="h-4 w-4" />
-        </Link>
-      </Button>
+      <div className="flex gap-4">
+        <Button
+          disabled={true}
+          variant="outline"
+          className="flex w-28 gap-2"
+          asChild
+        >
+          <Link target="_blank" href="/Resume.pdf" prefetch={false}>
+            <p>Resume</p>
+            <MoveUpRight className="h-4 w-4" />
+          </Link>
+        </Button>
+        <Button
+          disabled={true}
+          variant="outline"
+          className="flex w-28 gap-2"
+          asChild
+        >
+          <Link
+            target="_blank"
+            href="https://github.com/tamong"
+            prefetch={false}
+          >
+            <p>Github</p>
+            <MoveUpRight className="h-4 w-4" />
+          </Link>
+        </Button>
+      </div>
     </section>
   );
 }
