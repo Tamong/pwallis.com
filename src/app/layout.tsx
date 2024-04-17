@@ -31,6 +31,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={GeistSans.className}>
+      <head>
+        {/* cloudflare webanalytics*/}
+        <script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "f57e2a5cd25e453995306e09289ad476"}'
+        ></script>
+      </head>
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
