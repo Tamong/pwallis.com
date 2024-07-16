@@ -26,7 +26,11 @@ export default function Hero() {
           className="flex w-28 gap-2"
           asChild
         >
-          <Link target="_blank" href="/Resume.pdf" prefetch={false}>
+          <Link
+            target="_blank"
+            href="/Philip_Wallis_Resume.pdf"
+            prefetch={false}
+          >
             <p>Resume</p>
             <MoveUpRight className="h-4 w-4" />
           </Link>
